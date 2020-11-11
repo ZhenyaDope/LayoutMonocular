@@ -1,0 +1,188 @@
+.header{
+    background: url('../images/header/bg.jpg') no-repeat top center;
+    padding:15px 20px 20px;
+    display: flex;
+    min-height: 750px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    &__title{
+        position: relative;
+        text-align: center;
+        h1{
+            font-size:30px;
+            padding: 0;
+            margin: 0;
+            font-weight: bold;
+            color:#ffd700;
+            line-height: 36px;
+            margin-bottom: 230px;
+            span{
+                color:#fff;
+                font-size:26px;
+
+            }
+        }
+    }
+    &__content{
+        padding:50px;
+    }
+    &__discount{
+        position: absolute;
+        top:80px;
+        left:30px;
+        width:90px;
+        height: 90px;
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:15px;
+        border-radius: 100px;
+        color:#fff;
+        font-weight: bold;
+        font-size:12px;
+        background: rgba(126, 204, 25, 0.7);
+        span{
+            font-size:32px;
+        }
+    }
+    &__gift{
+        color:#fff;
+        position: relative;
+        display: flex;
+        align-items: center;
+        
+        
+        img{
+            display: block;
+            max-width: 100%;
+            height: auto;
+            position: absolute;
+            top: -12px;
+            left: -10px;
+            
+        }
+        span{
+            color: #ffd200;
+        }
+        
+        
+    }
+    &__gift-text{
+        position: relative; 
+        padding: 22px 0 0;
+        margin: 0 auto 20px;
+        
+        &::after{
+            content:'';
+            position: absolute;
+            width:15px;
+            height: 13px;
+            background: url('../images/header/arrow.png') no-repeat center center;
+            background-size: cover;
+            top:0px;
+            right: 110px;
+        }
+    }
+    &__list{
+        margin: 0 auto;
+        background: #fff;
+        padding: 15px 10px 15px 115px;
+        width: 380px;
+        border-radius: 5px;
+        list-style: none;
+        margin-bottom: 20px;
+        li{
+            margin: 0 0 5px;
+            padding: 0 0 0 18px;
+            position: relative;
+            &:before {
+                display: block;
+                content: '';
+                width: 8px;
+                height: 8px;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                border-radius: 50%;
+                background: #7ecc19;
+                -webkit-box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
+                -moz-box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
+                box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
+                position: absolute;
+                top: 4px;
+                left: 0;
+            }
+        }
+    }
+    &__sale{
+        width: 380px;
+        margin: 0 auto;
+        border-radius: 5px;
+        background: #fff;
+        display: flex;
+        overflow: hidden;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    &__sale-before{
+        display: flex;
+        width:50%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0;
+        p{
+            
+            margin: 0 0 4px;
+            font-size: 14px;
+            line-height: 14px;
+        }
+    }
+    &__sale-after{
+        background: #7ecc19;
+        display: flex;
+        width:50%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0;
+        span{
+            color:#fff;
+            text-decoration: none;
+        }
+    }
+    &__sale-value{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        position: relative;
+        text-decoration: line-through;
+        &::after{
+            content: "99к.";
+            font-size: 20px;
+            position: relative;
+            bottom: 5px;
+            
+        }
+    }
+
+    &__btn{
+        margin: 0 auto;
+        width: 380px;
+        height: 90px;
+        border-radius: 5px;
+        display: flex;
+        box-shadow: 0 4px 0 #d69c00;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 90px;
+        color: #222;
+        text-decoration: none;
+        text-transform: uppercase;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffba00;
+        
+    }
+}

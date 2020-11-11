@@ -16,5 +16,11 @@ body{
 }
 
 
+.main-wrapper{
+    max-width:480px;
+    margin:0 auto; 
+}
 
+@import 'global';
+@import 'header';
 

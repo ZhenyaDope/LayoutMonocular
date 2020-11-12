@@ -1,0 +1,21 @@
+.characteristics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:25px 0;
+    &__title{
+        color:#222;
+    }
+    &__list{
+        
+    }
+    &__btn{
+        margin-bottom: 35px;
+    }
+    &__image{
+        display: block;
+        max-width: 90%;
+        height: auto;
+        
+    }
+}

@@ -1,0 +1,53 @@
+// Желтая кнопка
+.btn--yellow{
+    width: 380px;
+    height: 90px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 4px 0 #d69c00;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 90px;
+    color: #222;
+    text-decoration: none;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffba00;
+}
+
+
+// Заголовок блоков
+.title--block{
+    margin: 0 0 20px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color:#222;
+    text-align: center;
+}
+
+// Чередующийся список
+.list--even{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width:90%;
+    li{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        padding:10px 20px;
+        font-size:100%;
+        &:nth-child(even){
+            background: #f8f8f8;
+        }
+    }
+}
+
+
+.title--product{
+    position: relative;
+    text-align: center;
+}

@@ -19,8 +19,16 @@ body{
 .main-wrapper{
     max-width:480px;
     margin:0 auto; 
+    
 }
 
 @import 'global';
 @import 'header';
-
+@import 'video';
+@import 'characteristics';
+@import 'use';
+@import 'gift';
+@import 'steps';
+@import 'reviews';
+@import 'cta';
+@import 'footer';

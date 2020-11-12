@@ -1,0 +1,55 @@
+.steps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:25px 0;
+    background: url('../images/steps/bg.jpg') no-repeat center center;
+    &__title{
+        color:#fff;
+    }
+    &__list{
+        width:90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    &__item{
+        width:47%;
+        margin: 0 20px 25px 0;
+        display: flex;
+        
+        flex-direction: column;
+        align-items: center;
+        img{
+            display: block;
+            max-width: 100%;
+            height: auto;
+            position: relative;
+        }
+        span{
+            margin: -16px auto 15px;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            bottom:0;
+            left: 40%;
+            border-radius: 50%;
+            background: #fff;
+            font-weight: 700;
+            font-size: 18px;
+            color:#222;
+            width: 32px;
+            height: 32px;
+        }
+        p{
+            text-align: center;
+            color:#fff;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        &:nth-child(even){
+            margin:0 0 25px 0;
+        }
+    }
+}
